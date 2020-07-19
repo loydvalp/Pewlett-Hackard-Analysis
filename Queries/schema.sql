@@ -259,8 +259,7 @@ SELECT e.emp_no,
      e.last_name,
      ti.title,
      s.salary,
-     de.to_date,
-     de.from_date
+     ti.from_date
 INTO no_of_retiring_employees
 FROM employees as e
      INNER JOIN salaries as s
@@ -309,7 +308,6 @@ GROUP BY title;
 SELECT *
 FROM retiring_title_count
 
-
 --Deliverable 2: Mentorship Eligibility
 
 SELECT e.emp_no,
@@ -317,7 +315,7 @@ SELECT e.emp_no,
      e.last_name,
      ti.title,
      de.to_date,
-     de.from_date
+     ti.from_date
 INTO no_mentorship_eligibility
 FROM employees as e
      INNER JOIN titles as ti
