@@ -24,9 +24,6 @@ HR analyst manager has given two more assignments: determine the total number of
 
 3.  Need to use the code provided below to complete the partition portion of the query. Create table.
 
-## Summary
-
-
 ## Technical Analyis Deliverable 2:
 
 1.  For this table, you will need to include the following information:
@@ -39,3 +36,7 @@ HR analyst manager has given two more assignments: determine the total number of
 To be eligible to participate in the mentorship program, employees will need to have a date of birth that falls between January 1, 1965 and December 31, 1965. Create Table.
 
 ## Summary
+
+The problem identified was determing how many employees will be retiring soon and what were their titles in the departments.  The only data was available was 6 csv files.  The first thing was to build an  Entity Relationship Diagram (ERD) to understand the relationship between each data by finding what connects them together.  The data was connected through primary keys (unique values in the main table) and foreign keys (unique values in other tables.  See 
+
+![](EmployeeeDB.png)
