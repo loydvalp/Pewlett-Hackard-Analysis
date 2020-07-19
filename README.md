@@ -55,3 +55,17 @@ Before the duplicates were removed, there was a total of 112,049 rows. After the
 
 For the second technical analysis deliverable, I had to determined employees who are eligible to participate in a mentorship program.  The criteria to be eligible was to employees need to have been born between January 1, 1965 and December 31, 1965.
 
+![](techAnalysis2.PNG)
+
+Removed the duplicates by the partitioning methond and use the count function to find the total employees per title.  See codes below.
+
+![](techAnalysisPartition2.PNG)
+
+Before the duplicates were removed, there was a total of 2,382 rows. After the duplicates were removed, there was a total of 1,549.
+
+![](techAnalysisCount2.PNG)
+
+In conclusion, there will be a total of 72,458 employees retiring.  The largest catagory of employees that are retiring are the title "Engineer".  There was only 2 manageers identified.  There are 1,549 employees eligible to participate in the mentorship program.  
+
+Review the following files:  no_of_retiring_employees.csv, recent_retiring_title.csv, and mentorship_1965.csv
+
