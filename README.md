@@ -65,7 +65,7 @@ Before the duplicates were removed, there was a total of 2,382 rows. After the d
 
 ![](techAnalysisCount2.PNG)
 
-In conclusion, there will be a total of 72,458 employees retiring. The largest category of employees that are retiring is the title "Engineer". There was only 2 managers identified. There are 1,549 employees eligible to participate in the mentorship program. They should start promoting lower-level employees and start hiring new employees. The mentorship will be helpful fo the new hires because it is a great way to share knowledge and train.
+In conclusion, there will be a total of 72,458 employees retiring. The largest category of employees that are retiring is the title "Senior Engineer". There was only 2 managers identified. There are 1,549 employees eligible to participate in the mentorship program. They should start promoting lower-level employees and start hiring new employees. The mentorship will be helpful fo the new hires because it is a great way to share knowledge and train.
 
 Review the following files:  no_of_retiring_employees.csv, recent_retiring_title.csv, and mentorship_1965.csv
 
