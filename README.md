@@ -41,5 +41,17 @@ The problem identified was determing how many employees will be retiring soon an
 
 ![](EmployeeeDB_ERD.png)
 
-Once the relationship of the database was created, I added the data into a PostgresSQL database.  In SQL, I created muliple tables by connecting the primary key and foreign keys gain relevant information from the multiple tables. 
+Once the relationship of the database was created, I added the data into a PostgresSQL database.  In SQL, I created muliple tables by connecting the primary key and foreign keys gain relevant information from the multiple tables. For the challenge, I had to create a table create a table containing the number of employees who are about to retire (those born 1952-1955), grouped by job title.  Using the ERD as a reference, I was able to create a table using the inner join method.  
+
+![](techAnalysis1.PNG)
+
+I selected the only columns I need to view from employees table.  I used inner join to join the four tables together.  The reason I used "ON" is for SQL to find matches.  The WHERE statement tells SQL to look into the birth_date column for the employees borned between January 1, 1952 and December 31,1955.  I also filtered the data by "to_date=9999-01-01".  The reason being that there could be employees between ‘1985-01-01’ AND ‘1988-12-31’ who could’ve left the company.  So I am ensuring that the employees haven't left the company by filtering with "to_date".  Once the table was created, I noticed that it appears to have duplicates.  I used the partitioning method to filter out the duplicates. 
+
+![](techAnalysisPartition.PNG)
+
+Before the duplicates were removed, there was a total of 112,049 rows. After the duplicates were removed, there was a total of 72,458.  I used the COUNT function to comfirm the total.
+
+![](techAnalysisCount.PNG)
+
+For the second technical analysis deliverable, I had to determined employees who are eligible to participate in a mentorship program.  The criteria to be eligible was to employees need to have been born between January 1, 1965 and December 31, 1965.
 
