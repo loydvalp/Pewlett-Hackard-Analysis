@@ -37,6 +37,9 @@ To be eligible to participate in the mentorship program, employees will need to 
 
 ## Summary
 
-The problem identified was determing how many employees will be retiring soon and what were their titles in the departments.  The only data was available was 6 csv files.  The first thing was to build an  Entity Relationship Diagram (ERD) to understand the relationship between each data by finding what connects them together.  The data was connected through primary keys (unique values in the main table) and foreign keys (unique values in other tables.  See 
+The problem identified was determing how many employees will be retiring soon and what were their titles in the departments.  The only data was available was 6 csv files.  The first thing was to build an  Entity Relationship Diagram (ERD) to understand the relationship between each data by finding what connects them together.  The data was connected through primary keys (unique values in the main table) and foreign keys (unique values in other tables.  See the ERD of Pewlett Harkard Employee below:
 
-![](EmployeeeDB.png)
+![](EmployeeeDB_ERD.png)
+
+Once the relationship of the database was created, I added the data into a PostgresSQL database.  In SQL, I created muliple tables by connecting the primary key and foreign keys gain relevant information from the multiple tables. 
+
