@@ -43,7 +43,7 @@ The problem identified was determining how many employees will be retiring soon 
 
 Once the relationship of the database was created, I added the data into a PostgresSQL database. In SQL, I created multiple tables by connecting the primary key and foreign keys to gain relevant information from the multiple tables. For the challenge, I had to create a table to create a table containing the number of employees who are about to retire (those born 1952-1955), grouped by job title. Using the ERD as a reference, I was able to create a table using the inner join method. 
 
-![](techAnalysis1.PNG)
+![](techAnalysis_1.PNG)
 
  I selected the only columns I need to view from the employee's table. I used an inner join to join the four tables together. The reason I used "ON" is for SQL to find matches. The WHERE statement tells SQL to look into the birth_date column for the employees born between January 1, 1952, and December 31, 1955. I also filtered the data by "to_date=9999-01-01". The reason is that there could be employees between ‘1985-01-01’ AND ‘1988-12-31’ who could’ve left the company. So I am ensuring that the employees haven't left the company by filtering with "to_date". Once the table was created, I noticed that it appears to have duplicates. I used the partitioning method to filter out the duplicates.
 
