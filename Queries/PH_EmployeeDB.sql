@@ -281,6 +281,7 @@ FROM recent_retiring_title
 GROUP BY title;
 
 SELECT * FROM retiring_title_count
+
 --Deliverable 2: Mentorship Eligibility
 
 SELECT e.emp_no,
