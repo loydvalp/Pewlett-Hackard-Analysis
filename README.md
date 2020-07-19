@@ -55,7 +55,7 @@ Before the duplicates were removed, there was a total of 112,049 rows. After the
 
 For the second technical analysis deliverable, I had to determine employees who are eligible to participate in a mentorship program. The criteria to be eligible for the program were for employees who have been born between January 1, 1965, and December 31, 1965.
 
-![](techAnalysis2.PNG)
+![](techAnalysis_2.PNG)
 
 Removed the duplicates by the partitioning method and use the count function to find the total employees per title. See the codes below.
 
